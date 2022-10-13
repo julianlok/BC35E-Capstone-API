@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Register</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <section class="top-bar">
+        <div class="container">
+            <nav class="navbar navbar-light">
+                <a class="navbar-brand">
+                    <img class="header-logo" src="./img/logo.png" alt="logo" href="./index.html">
+                </a>
+                <form class="form-inline">
+                    <i class="fa fa-shopping-cart header-cart">
+                    </i>
+                    <a class="header-login" href="#">Login</a>
+                    <a class="header-register" href="#">Register</a>
+                </form>
+            </nav>
+        </div>
+    </section>
+    <header>
+        <div class="container">
+            <div class="header-menu">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Woman</a></li>
+                        <li><a href="#">Kid</a></li>
+                        <li><a href="#">Sport</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="register">
+        <h2 class="text-center my-5">Register</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-6">
+                <div class="form-group d-flex align-items-center">
+                    <label for=""></label>
+                    <input type="email" class="form-control" name="" id="txtEmail" aria-describedby="helpId"
+                        placeholder="email">
+                    <div class="required">(*)</div>  
+                    <div id="errorEmail" style="display: none" class="text-danger"></div>
+                </div>
+                <div class="form-group d-flex align-items-center">
+                    <label for=""></label>
+                    <input type="password" class="form-control" name="" id="txtPassword" aria-describedby="helpId"
+                        placeholder="password">
+                    <div class="required">(*)</div>
+                    <div id="errorPass" style="display: none" class="text-danger"></div>
+                </div>
+                <div class="form-group d-flex align-items-center">
+                    <label for=""></label>
+                    <input type="password" class="form-control" name="" id="txtCfmPassword" aria-describedby="helpId"
+                        placeholder="password to confirm">
+                    <div class="required">(*)</div>
+                    <div id="errorPassCfm" style="display: none" class="text-danger"></div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-group d-flex align-items-center">
+                    <label for=""></label>
+                    <input type="text" class="form-control" name="" id="txtName" aria-describedby="helpId"
+                        placeholder="name">
+                    <div class="required">(*)</div>
+                    <div id="errorName" style="display: none" class="text-danger"></div>
+                </div>
+                <div class="form-group d-flex align-items-center">
+                    <label for=""></label>
+                    <input type="number" class="form-control" name="" id="txtPhone" aria-describedby="helpId"
+                        placeholder="phone">
+                    <div class="required">(*)</div>
+                    <div id="errorPhone" style="display: none" class="text-danger"></div>
+                </div>
+                <div class="form-check form-check-inline mt-4 d-flex align-items-center">
+                    <label class="form-check-label ml-2">
+                        Gender
+                        <input class="form-check-input" type="radio" name="gender" id="txtGender" value="checkedValue"
+                            checked> Male
+                        <input class="form-check-input" type="radio" name="gender" id="txtGender" value="checkedValue">
+                        Female
+                    </label>
+                    <div id="errorGender" style="display: none" class="text-danger"></div>
+                </div>
+                <button type="button" id="btnSubmit" class="submitBtn d-block text-decoration-none mt-5">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-top d-flex justify-content-between align-items">
+                <div class="footer-item">
+                    <h5>GET HELP</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-body" href="#">Contact us</a></li>
+                        <li><a class="text-decoration-none text-body" href="#">Shopping</a></li>
+                        <li><a class="text-decoration-none text-body" href="#">NIKEiD</a></li>
+                        <li><a class="text-decoration-none text-body" href="#">Nike+</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h5>ORDERS</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-body" href="#">Payment options</a></li>
+                        <li><a class="text-decoration-none text-body" href="#">Shipping and delivery</a></li>
+                        <li><a class="text-decoration-none text-body" href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h5>REGISTER</h5>
+                    <p>Create one account to manage everything you do with Nike, from<br />your shopping preferences to
+                        your Nike+ activity</p>
+                    <a class="text-decoration-none text-body learn-more" href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="footer-bottom mt-3">
+        <div class="container">
+            <div class="footer-bottom-content d-flex justify-content-between align-items">
+                <div class="footer-item">
+                    <h5>EMAIL SIGN UP</h5>
+                    <p>Be the first to know about new products and special offers</p>
+                    <a class="text-decoration-none text-body learn-more" href="#">Sign up now</a>
+                </div>
+                <div class="footer-item">
+                    <h5>GIFT CARDS</h5>
+                    <p>Give the gift that always fits</p>
+                    <a class="text-decoration-none text-body learn-more" href="#">View cards</a>
+                </div>
+                <div class="footer-item">
+                    <h5>STORES NEAR YOU</h5>
+                    <p>Locate a Nike store or authorized retailer</p>
+                    <a class="text-decoration-none text-body learn-more" href="#">Search</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+
+    <script src="./js/src/models/Register.js"></script>
+    <script src="./js/src/models/Validation.js"></script>
+    <script src="./js/src/controller/index.js"></script>
+
+</body>
+
+</html>

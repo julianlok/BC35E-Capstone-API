@@ -1,0 +1,20 @@
+// Base
+@import './base/_reset.scss';
+
+// Helpers
+@import './helpers/_variables.scss';
+
+// Header
+@import './layouts/_header.scss';
+
+// Carousel
+@import './layouts/_carousel.scss';
+
+// Body
+@import './layouts/_content.scss';
+
+// Components
+@import './components/_button.scss';
+
+// Footer
+@import './layouts/_footer.scss'

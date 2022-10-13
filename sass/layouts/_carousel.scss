@@ -1,0 +1,31 @@
+section.carousel {
+    background-image: url('../../img/carousel-layer.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 393px;
+}
+
+.carousel {
+    .carousel-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .carousel-right {
+            h2 {
+                font-size: $fs-product-name;
+                font-weight: $fw-3;
+                line-height: 48.41px;
+            }
+
+            p {
+                font-size: $fs-product-description;
+                font-weight: $fw-3;
+                line-height: 24.2px;
+            }
+        }
+    }
+
+
+}

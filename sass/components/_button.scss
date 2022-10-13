@@ -1,0 +1,25 @@
+.orange-button-1 {
+    background-color: $color-orange;
+    padding: 13px 35px;
+    font-size: $fs-header;
+    font-weight: $fw-3;
+    line-height: 24px;
+    color: $color-white;
+    outline: none;
+    border: 1px solid $color-orange;    
+}
+
+.orange-button-2 {
+    background-color: $color-orange;
+    padding: 18px 39px;
+    font-size: $fs-header;
+    font-weight: $fw-3;
+    line-height: 24px;
+    color: $color-black;
+    outline: none;
+    border: 1px solid $color-orange;    
+    transition: all .3s;
+    &:hover {
+        color: $color-black;
+    }
+}
